@@ -35,7 +35,7 @@ public class BootWebApplication {
 		
 		model.addAttribute("singlePerson", single);
 		model.addAttribute("people", people);
-		
+
 		return "index";
 	}
 
